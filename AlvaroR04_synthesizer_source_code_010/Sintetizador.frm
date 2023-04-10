@@ -1,7 +1,7 @@
 VERSION 5.00
 Begin VB.Form Sintetizador 
    BorderStyle     =   1  'Fixed Single
-   Caption         =   "Sintetizador"
+   Caption         =   "Hola soy Sergio"
    ClientHeight    =   12780
    ClientLeft      =   150
    ClientTop       =   795
@@ -43,8 +43,8 @@ Option Explicit
 Dim voz
 
 Private Sub About_Click()
-    MsgBox "AlvaroR04's Synthesizer versiÛn: " & App.Major & "." & App.Minor & "." & App.Revision & vbCrLf & vbCrLf & _
-    "El programa est· en una fase beta, y este puede congelarse mientras se realiza la lectura en voz alta hasta que termine. Se recomienda discreciÛn."
+    MsgBox "AlvaroR04's Synthesizer versi√≥n: " & App.Major & "." & App.Minor & "." & App.Revision & vbCrLf & vbCrLf & _
+    "El programa est√° en una fase beta, y este puede congelarse mientras se realiza la lectura en voz alta hasta que termine. Se recomienda discreci√≥n."
 End Sub
 
 Private Sub Form_Load()
