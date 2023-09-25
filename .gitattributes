@@ -1,2 +1,2 @@
-*.frm linguist-detectable=false
-*.frx linguist-detectable=false
+*.frm linguist-detectable=true
+*.frx linguist-detectable=true
